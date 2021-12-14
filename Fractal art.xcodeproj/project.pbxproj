@@ -13,6 +13,9 @@
 		043D74C5275EB1E000049EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D74C3275EB1E000049EDA /* Main.storyboard */; };
 		043D74C7275EB1E400049EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043D74C6275EB1E400049EDA /* Assets.xcassets */; };
 		043D74CA275EB1E400049EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D74C8275EB1E400049EDA /* LaunchScreen.storyboard */; };
+		043D74D3275EB3AD00049EDA /* MandelbrotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D74D2275EB3AD00049EDA /* MandelbrotView.swift */; };
+		043D74D5275EB41300049EDA /* ComplexNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D74D4275EB41300049EDA /* ComplexNumbers.swift */; };
+		043D74D7275EC12900049EDA /* ComplexPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D74D6275EC12900049EDA /* ComplexPlane.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		043D74C6275EB1E400049EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043D74C9275EB1E400049EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043D74CB275EB1E400049EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D74D2275EB3AD00049EDA /* MandelbrotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandelbrotView.swift; sourceTree = "<group>"; };
+		043D74D4275EB41300049EDA /* ComplexNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexNumbers.swift; sourceTree = "<group>"; };
+		043D74D6275EC12900049EDA /* ComplexPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexPlane.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		043D74BC275EB1E000049EDA /* Fractal art */ = {
 			isa = PBXGroup;
 			children = (
+				043D74D1275EB21900049EDA /* MandelbrotModel */,
 				043D74BD275EB1E000049EDA /* AppDelegate.swift */,
 				043D74BF275EB1E000049EDA /* SceneDelegate.swift */,
 				043D74C1275EB1E000049EDA /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				043D74CB275EB1E400049EDA /* Info.plist */,
 			);
 			path = "Fractal art";
+			sourceTree = "<group>";
+		};
+		043D74D1275EB21900049EDA /* MandelbrotModel */ = {
+			isa = PBXGroup;
+			children = (
+				043D74D2275EB3AD00049EDA /* MandelbrotView.swift */,
+				043D74D4275EB41300049EDA /* ComplexNumbers.swift */,
+				043D74D6275EC12900049EDA /* ComplexPlane.swift */,
+			);
+			path = MandelbrotModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				043D74C2275EB1E000049EDA /* ViewController.swift in Sources */,
+				043D74D5275EB41300049EDA /* ComplexNumbers.swift in Sources */,
 				043D74BE275EB1E000049EDA /* AppDelegate.swift in Sources */,
+				043D74D3275EB3AD00049EDA /* MandelbrotView.swift in Sources */,
 				043D74C0275EB1E000049EDA /* SceneDelegate.swift in Sources */,
+				043D74D7275EC12900049EDA /* ComplexPlane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
